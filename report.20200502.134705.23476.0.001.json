@@ -1,0 +1,470 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200502.134705.23476.0.001.json",
+    "dumpEventTime": "2020-05-02T13:47:05Z",
+    "dumpEventTimeStamp": "1588423625342",
+    "processId": 23476,
+    "cwd": "d:\\Users\\Peter\\code\\tech-tests\\post-course",
+    "commandLine": [
+      "node",
+      "d:\\Users\\Peter\\code\\tech-tests\\post-course\\Javascript Katas\\solutions\\q15.js"
+    ],
+    "nodejsVersion": "v12.16.1",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.16.1",
+      "v8": "7.8.279.23-node.31",
+      "uv": "1.34.0",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.4",
+      "http_parser": "2.9.3",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.16.1/node-v12.16.1-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.16.1/node-v12.16.1.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.16.1/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "6.1.7601",
+    "osVersion": "Windows 7 Ultimate Service Pack 1",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i7-3770K CPU @ 3.50GHz",
+        "speed": 3518,
+        "user": 517907,
+        "nice": 0,
+        "sys": 1419172,
+        "idle": 11857651,
+        "irq": 125534
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-3770K CPU @ 3.50GHz",
+        "speed": 3518,
+        "user": 875134,
+        "nice": 0,
+        "sys": 1715028,
+        "idle": 11204553,
+        "irq": 1310
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-3770K CPU @ 3.50GHz",
+        "speed": 3518,
+        "user": 429611,
+        "nice": 0,
+        "sys": 1033023,
+        "idle": 12331957,
+        "irq": 982
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-3770K CPU @ 3.50GHz",
+        "speed": 3518,
+        "user": 869409,
+        "nice": 0,
+        "sys": 1585313,
+        "idle": 11339743,
+        "irq": 1700
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-3770K CPU @ 3.50GHz",
+        "speed": 3518,
+        "user": 491278,
+        "nice": 0,
+        "sys": 1417378,
+        "idle": 11885684,
+        "irq": 1232
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-3770K CPU @ 3.50GHz",
+        "speed": 3518,
+        "user": 873636,
+        "nice": 0,
+        "sys": 1350219,
+        "idle": 11570360,
+        "irq": 1684
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-3770K CPU @ 3.50GHz",
+        "speed": 3518,
+        "user": 691271,
+        "nice": 0,
+        "sys": 1260659,
+        "idle": 11842160,
+        "irq": 1497
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-3770K CPU @ 3.50GHz",
+        "speed": 3518,
+        "user": 1048669,
+        "nice": 0,
+        "sys": 680351,
+        "idle": 12064945,
+        "irq": 2230
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "Local Area Connection",
+        "internal": false,
+        "mac": "10:bf:48:bd:2d:67",
+        "address": "2a01:4b00:8a0e:1c00:71e8:f066:c3bb:f551",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Local Area Connection",
+        "internal": false,
+        "mac": "10:bf:48:bd:2d:67",
+        "address": "fd00::71e8:f066:c3bb:f551",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Local Area Connection",
+        "internal": false,
+        "mac": "10:bf:48:bd:2d:67",
+        "address": "fe80::71e8:f066:c3bb:f551",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 11
+      },
+      {
+        "name": "Local Area Connection",
+        "internal": false,
+        "mac": "10:bf:48:bd:2d:67",
+        "address": "192.168.1.178",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "VirtualBox Host-Only Network",
+        "internal": false,
+        "mac": "0a:00:27:00:00:0d",
+        "address": "fe80::a8c0:810c:3804:e315",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 13
+      },
+      {
+        "name": "VirtualBox Host-Only Network",
+        "internal": false,
+        "mac": "0a:00:27:00:00:0d",
+        "address": "192.168.56.1",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "Peter-PC"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x000000013f2e19f9",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+10873"
+    },
+    {
+      "pc": "0x000000013f2e5e1c",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+28316"
+    },
+    {
+      "pc": "0x000000013f2e4dd8",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+24152"
+    },
+    {
+      "pc": "0x000000013f3e34cb",
+      "symbol": "v8::base::CPU::has_sse+38363"
+    },
+    {
+      "pc": "0x000000013fbf9f4e",
+      "symbol": "v8::Isolate::ReportExternalAllocationLimitReached+94"
+    },
+    {
+      "pc": "0x000000013fbe2021",
+      "symbol": "v8::SharedArrayBuffer::Externalize+833"
+    },
+    {
+      "pc": "0x000000013faae57c",
+      "symbol": "v8::internal::Heap::EphemeronKeyWriteBarrierFromCode+1436"
+    },
+    {
+      "pc": "0x000000013fab97d0",
+      "symbol": "v8::internal::Heap::ProtectUnprotectedMemoryChunks+1312"
+    },
+    {
+      "pc": "0x000000013fab62f4",
+      "symbol": "v8::internal::Heap::PageFlagsAreConsistent+3204"
+    },
+    {
+      "pc": "0x000000013faabb13",
+      "symbol": "v8::internal::Heap::CollectGarbage+1283"
+    },
+    {
+      "pc": "0x000000013faaa184",
+      "symbol": "v8::internal::Heap::AddRetainedMap+2452"
+    },
+    {
+      "pc": "0x000000013facb36d",
+      "symbol": "v8::internal::Factory::NewFillerObject+61"
+    },
+    {
+      "pc": "0x000000013f830c51",
+      "symbol": "v8::internal::interpreter::JumpTableTargetOffsets::iterator::operator=+1665"
+    },
+    {
+      "pc": "0x0000000140044ddd",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+546637"
+    },
+    {
+      "pc": "0x0000000140045ed3",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+550979"
+    },
+    {
+      "pc": "0x000000a575b03599",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2158735360,
+    "totalCommittedMemory": 2158735360,
+    "usedMemory": 2152780488,
+    "availableMemory": 42585816,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 32808,
+        "used": 32808,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 4718592,
+        "committedMemory": 4718592,
+        "capacity": 2356776,
+        "used": 1416008,
+        "available": 940768
+      },
+      "old_space": {
+        "memorySize": 1633042432,
+        "committedMemory": 1633042432,
+        "capacity": 1631240624,
+        "used": 1631032288,
+        "available": 208336
+      },
+      "code_space": {
+        "memorySize": 430080,
+        "committedMemory": 430080,
+        "capacity": 160896,
+        "used": 160896,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 266240,
+        "committedMemory": 266240,
+        "capacity": 170960,
+        "used": 170960,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 519966720,
+        "committedMemory": 519966720,
+        "capacity": 519964744,
+        "used": 519964744,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 2784,
+        "used": 2784,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 2356776,
+        "used": 0,
+        "available": 2356776
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 467.69,
+    "kernelCpuSeconds": 3.572,
+    "cpuConsumptionPercent": 115.789,
+    "maxRss": 2700435456,
+    "pageFaults": {
+      "IORequired": 3204046,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 2,
+      "writes": 110
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "=D:": "d:\\Users\\Peter\\code\\tech-tests\\post-course",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "AMD_ENTRYPOINT": "vs/workbench/services/extensions/node/extensionHostProcess",
+    "APPDATA": "C:\\Users\\Peter\\AppData\\Roaming",
+    "APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL": "true",
+    "asl.log": "Destination=file",
+    "CLASSPATH": ".;C:\\Program Files (x86)\\Java\\jre7\\lib\\ext\\QTJava.zip",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "PETER-PC",
+    "ComSpec": "C:\\Windows\\system32\\cmd.exe",
+    "C_IA32_REDIST11": "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\",
+    "C_IA64_REDIST11": "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\",
+    "DOTNET_ROOT": "c:\\Users\\Peter\\AppData\\Roaming\\Code\\User\\globalStorage\\ms-vsliveshare.vsliveshare\\dotnet-3.1.1",
+    "DOTNET_ROOT(X86)": "c:\\Users\\Peter\\AppData\\Roaming\\Code\\User\\globalStorage\\ms-vsliveshare.vsliveshare\\dotnet-3.1.1",
+    "ELECTRON_NO_ATTACH_CONSOLE": "1",
+    "ELECTRON_RUN_AS_NODE": "1",
+    "ESET_OPTIONS": "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ",
+    "FP_NO_HOST_CHECK": "NO",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\Peter",
+    "INTEL_DEV_REDIST": "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\",
+    "KMP_DUPLICATE_LIB_OK": "TRUE",
+    "LOCALAPPDATA": "C:\\Users\\Peter\\AppData\\Local",
+    "LOGONSERVER": "\\\\PETER-PC",
+    "MIC_LD_LIBRARY_PATH": "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\compiler\\lib\\mic",
+    "MOZ_PLUGIN_PATH": "C:\\Program Files (x86)\\Foxit Software\\Foxit Reader\\plugins\\",
+    "NUMBER_OF_PROCESSORS": "8",
+    "OculusBase": "D:\\Oculus\\",
+    "OS": "Windows_NT",
+    "Path": "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\WinRAR;C:\\Program Files (x86)\\Google\\Chrome\\Application;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\ia32\\compiler;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler;c:\\program files (x86)\\common files\\intel\\shared files\\cpp\\bin\\ia64;d:\\oculus\\support\\oculus-runtime;c:\\programdata\\oracle\\java\\javapath;c:\\program files (x86)\\common files\\intel\\shared files\\cpp\\bin\\ia32;c:\\windows\\system32;c:\\windows;c:\\windows\\system32\\wbem;c:\\windows\\system32\\windowspowershell\\v1.0\\;c:\\program files (x86)\\intel\\opencl sdk\\2.0\\bin\\x86;c:\\program files (x86)\\intel\\opencl sdk\\2.0\\bin\\x64;c:\\program files (x86)\\quicktime\\qtsystem\\;c:\\program files (x86)\\intel\\opencl sdk\\2.0\\bin\\x86;c:\\program files (x86)\\intel\\opencl sdk\\2.0\\bin\\x64;c:\\program files (x86)\\ati technologies\\ati.ace\\core-static;c:\\program files\\microsoft sql server\\110\\tools\\binn\\;c:\\program files\\calibre2\\;c:\\program files\\openvpn\\bin;c:\\program files\\roguekiller;c:\\program files (x86)\\gpg4win\\..;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;D:\\Program Files (x86)\\Yarn\\bin\\;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;;C:\\Users\\Peter\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Peter\\AppData\\Roaming\\npm;C:\\Users\\Peter\\AppData\\Local\\Yarn\\bin",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+    "PIPE_LOGGING": "true",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 58 Stepping 9, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "3a09",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "QTJAVA": "C:\\Program Files (x86)\\Java\\jre7\\lib\\ext\\QTJava.zip",
+    "SESSIONNAME": "Console",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\Windows",
+    "TEMP": "d:\\Temp",
+    "TMP": "d:\\Temp",
+    "USERDOMAIN": "Peter-PC",
+    "USERNAME": "Peter",
+    "USERPROFILE": "C:\\Users\\Peter",
+    "VBOX_MSI_INSTALL_PATH": "d:\\Program Files\\Oracle\\VirtualBox\\",
+    "VERBOSE_LOGGING": "true",
+    "VSCODE_CLI": "1",
+    "VSCODE_CWD": "D:\\Users\\Peter\\code\\tech-tests\\post-course",
+    "VSCODE_HANDLES_UNCAUGHT_ERRORS": "true",
+    "VSCODE_IPC_HOOK": "\\\\.\\pipe\\a071a7fb9429be165708ddc4a8f43dbb-1.44.2-main-sock",
+    "VSCODE_IPC_HOOK_EXTHOST": "\\\\.\\pipe\\vscode-ipc-12a5ebbf-be63-4a92-914c-e08e4652ee3a-sock",
+    "VSCODE_LOGS": "C:\\Users\\Peter\\AppData\\Roaming\\Code\\logs\\20200502T100205",
+    "VSCODE_LOG_STACK": "false",
+    "VSCODE_NLS_CONFIG": "{\"locale\":\"en-us\",\"availableLanguages\":{},\"_languagePackSupport\":true}",
+    "VSCODE_NODE_CACHED_DATA_DIR": "C:\\Users\\Peter\\AppData\\Roaming\\Code\\CachedData\\ff915844119ce9485abfe8aa9076ec76b5300ddd",
+    "VSCODE_PID": "8820",
+    "VSLS_SESSION_KEEPALIVE_INTERVAL": "20",
+    "windir": "C:\\Windows",
+    "windows_tracing_flags": "3",
+    "windows_tracing_logfile": "C:\\BVTBin\\Tests\\installpackage\\csilogfile.log"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\Windows\\SYSTEM32\\ntdll.dll",
+    "C:\\Windows\\system32\\kernel32.dll",
+    "C:\\Windows\\system32\\KERNELBASE.dll",
+    "C:\\Windows\\system32\\dbghelp.dll",
+    "C:\\Windows\\system32\\msvcrt.dll",
+    "C:\\Windows\\system32\\WS2_32.dll",
+    "C:\\Windows\\system32\\RPCRT4.dll",
+    "C:\\Windows\\system32\\NSI.dll",
+    "C:\\Windows\\system32\\IPHLPAPI.DLL",
+    "C:\\Windows\\system32\\WINNSI.DLL",
+    "C:\\Windows\\system32\\PSAPI.DLL",
+    "C:\\Windows\\system32\\USERENV.dll",
+    "C:\\Windows\\system32\\profapi.dll",
+    "C:\\Windows\\system32\\ADVAPI32.dll",
+    "C:\\Windows\\SYSTEM32\\sechost.dll",
+    "C:\\Windows\\system32\\USER32.dll",
+    "C:\\Windows\\system32\\GDI32.dll",
+    "C:\\Windows\\system32\\LPK.dll",
+    "C:\\Windows\\system32\\USP10.dll",
+    "C:\\Windows\\system32\\CRYPT32.dll",
+    "C:\\Windows\\system32\\MSASN1.dll",
+    "C:\\Windows\\system32\\bcrypt.dll",
+    "C:\\Windows\\system32\\WINMM.dll",
+    "C:\\Windows\\system32\\IMM32.DLL",
+    "C:\\Windows\\system32\\MSCTF.dll",
+    "C:\\Windows\\system32\\api-ms-win-core-synch-l1-2-0.DLL",
+    "C:\\Windows\\system32\\powrprof.dll",
+    "C:\\Windows\\system32\\SETUPAPI.dll",
+    "C:\\Windows\\system32\\CFGMGR32.dll",
+    "C:\\Windows\\system32\\OLEAUT32.dll",
+    "C:\\Windows\\system32\\ole32.dll",
+    "C:\\Windows\\system32\\DEVOBJ.dll",
+    "C:\\Windows\\system32\\uxtheme.dll",
+    "C:\\Windows\\system32\\mswsock.dll",
+    "C:\\Windows\\System32\\wshtcpip.dll",
+    "C:\\Windows\\System32\\wship6.dll",
+    "C:\\Windows\\system32\\bcryptprimitives.dll",
+    "C:\\Windows\\system32\\dhcpcsvc6.DLL",
+    "C:\\Windows\\system32\\dhcpcsvc.DLL",
+    "C:\\Windows\\system32\\NLAapi.dll",
+    "C:\\Windows\\system32\\napinsp.dll",
+    "C:\\Windows\\system32\\pnrpnsp.dll",
+    "C:\\Windows\\system32\\DNSAPI.dll",
+    "C:\\Windows\\System32\\winrnr.dll",
+    "C:\\Program Files\\Bonjour\\mdnsNSP.dll",
+    "C:\\Windows\\system32\\wshbth.dll"
+  ]
+}
