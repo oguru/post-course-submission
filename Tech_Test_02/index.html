@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wasp Game</title>
+
+    <script>
+        class Wasp {
+            constructor(name, hitPoints, damageOnHit) {
+                this.name = name
+                this.hitPoints = hitPoints;
+                this.damageOnHit = damageOnHit;
+            }
+            takeHit() {
+                this.hitPoints = this.hitPoints - this.damageOnHit;
+            }
+        }
+
+        class Queen extends Wasp {
+            constructor(name, hitPoints, damageOnHit) {
+                super(name, hitPoints, damageOnHit);
+            }
+        }
+
+        class Worker extends Wasp {
+            constructor(name, hitPoints, damageOnHit) {
+                super(name, hitPoints, damageOnHit);
+            }
+        }
+
+        class Drone extends Wasp {
+            constructor(name, hitPoints, damageOnHit) {
+                super(name, hitPoints, damageOnHit);
+            }
+        }
+
+        let waspArray = [];
+
+        const getRandomNum = () => Math.floor(Math.random() * waspArray.length);
+
+        const printWasps = (randomNum) => {
+            // console.log(randomNum);
+            // if (randomNum)
+            const userInterface = document.getElementById("wasps")
+            if (waspArray[0].hitPoints < 1) {
+                userInterface.innerHTML = "You Won!"}
+            else {
+                waspArray[randomNum].hitPoints < 1 ? waspArray.splice(randomNum, 1) : false;
+                const waspToPrint = waspArray.map(wasp => `<p>${wasp.name.name} hp = ${wasp.hitPoints}</p>`).join(",");
+                userInterface.innerHTML = waspToPrint.split(",").join("");}
+        }
+
+        const hitRandom = () => {
+            const randomNum = getRandomNum()
+            console.log(randomNum, waspArray.length);
+            
+            waspArray[randomNum].takeHit()
+            printWasps(randomNum);
+        }
+
+        const createWasps = () => {
+            waspArray.push(new Queen(Queen, 80, 80));
+            for (let i = 0; i < 5; i++) {
+                waspArray.push(new Worker(Worker, 68, 10))
+            }
+            for (let i = 0; i < 8; i++) {
+                waspArray.push(new Drone(Drone, 60, 12))
+            }
+            printWasps(getRandomNum());
+        }
+
+    </script>
+</head>
+<body>
+    <section id="wasps"></section>
+    <button onclick="createWasps()">Start</button>
+    <button onclick="hitRandom()">Fire!</button>
+</body>
+</html>

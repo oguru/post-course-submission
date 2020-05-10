@@ -1,12 +1,7 @@
-const reverseStr = str1 => {
-    const reversedStr = 
-        str1.replace(/\s/g, "")
-        .toLowerCase()
-        .split("")
-        .reverse()
-        .join("")
-    return reversedStr;
+const unsortedArr = [ [ 5, 7 ], [ 4, 8 ], [ 5, 7 ], [ 6, 6 ] ]
+
+const sortArr = unsortedArr => {
+    return unsortedArr.sort((a, b) => a[0] - b[0])
 }
 
-console.log(reverseStr("reverse this"));
-
+console.log(sortArr(unsortedArr));
